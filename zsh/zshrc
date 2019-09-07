@@ -8,7 +8,7 @@ export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
 
 
 
-# source $ZSH/oh-my-zsh.sh
+source $ZSH/oh-my-zsh.sh
 source "$HOME/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme"
 source "$HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 source "$HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"
@@ -181,5 +181,5 @@ fpath=(~/Documents/cheatsheets/ $fpath)
 
 
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
-        source /etc/profile.d/vte.sh
+        source /etc/profile.d/vte-2.91.sh
 fi
