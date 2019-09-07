@@ -8,8 +8,8 @@ export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
 
 
 
-source $ZSH/oh-my-zsh.sh
-source "$HOME/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
+# source $ZSH/oh-my-zsh.sh
+source "$HOME/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme"
 source "$HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 source "$HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"
 source /usr/local/bin/virtualenvwrapper.sh

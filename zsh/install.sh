@@ -3,7 +3,7 @@ DIR="$(dirname "$0" )"  # Source : https://stackoverflow.com/questions/38978650/
 
 # Install ZSH
 sudo apt install zsh -y
-chsf -s /bin/zsh $USER
+chsh -s /bin/zsh $USER
 
 # Install Oh My ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -17,4 +17,4 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/cust
 # Install Space ship theme
 git clone https://github.com/denysdovhan/spaceship-prompt.git ~/.oh-my-zsh/custom/themes/spaceship-prompt/
 
-$DIR/restore.sh
+$DIR/restore.sht
