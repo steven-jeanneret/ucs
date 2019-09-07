@@ -1,3 +1,3 @@
 #!/bin/bash
 
-MODULES=(i3 tilix zsh)
+MODULES=(utils zsh tilix i3)
