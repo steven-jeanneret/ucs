@@ -4,5 +4,7 @@ DIR="$(dirname "$0" )"  # Source : https://stackoverflow.com/questions/38978650/
 . $DIR/set_var.sh
 
 for i in ${MODULES[@]}; do
-    $DIR/$i/backup.sh
+    if [[ -f "$DIR/$i/backup.sh" ]]; then  # Source : https://stackoverflow.com/questions/9772036/pass-all-variables-from-one-shell-script-to-another
+        $DIR/$i/backup.sh
+    fi
 done
