@@ -3,6 +3,5 @@ DIR="$(dirname "$0" )"  # Source : https://stackoverflow.com/questions/38978650/
 
 . $DIR/set_var.sh
 
-for i in ${MODULES[@]}; do
-    $DIR/$i/backup.sh
-done
+echo $FILE backuped
+cp $FILE $DEST

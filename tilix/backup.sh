@@ -4,4 +4,4 @@ DIR="$(dirname "$0" )"  # Source : https://stackoverflow.com/questions/38978650/
 . $DIR/set_var.sh
 
 echo Tilix config backuped
-dconf dump /com/gexperts/Tilix/ > $DIR/tilix.dconf
+dconf dump /com/gexperts/Tilix/ > $DEST

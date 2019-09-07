@@ -3,5 +3,5 @@ DIR="$(dirname "$0" )"  # Source : https://stackoverflow.com/questions/38978650/
 
 . $DIR/set_var.sh
 
-echo $DIR/zshrc backuped
-cp ~/.zshrc $DIR/zshrc
+echo $DEST backuped
+cp $FILE $DEST

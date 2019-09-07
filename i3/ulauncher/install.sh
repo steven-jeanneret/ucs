@@ -1,8 +1,8 @@
 #!/bin/bash
 DIR="$(dirname "$0" )"  # Source : https://stackoverflow.com/questions/38978650/run-a-script-in-the-same-directory-as-the-current-script
 
-. $DIR/set_var.sh
+sudo add-apt-repository ppa:agornostal/ulauncher
+sudo apt update
+sudo apt install ulauncher -y
 
-for i in ${MODULES[@]}; do
-    $DIR/$i/backup.sh
-done
+$DIR/restore.sh
