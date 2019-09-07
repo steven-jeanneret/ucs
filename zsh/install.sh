@@ -5,10 +5,8 @@ DIR="$(dirname "$0" )"  # Source : https://stackoverflow.com/questions/38978650/
 sudo apt install zsh -y
 chsh -s /bin/zsh $USER
 
-zsh
-
 # Install Oh My ZSH
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 
 # Install Auto-suggest
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/
