@@ -17,4 +17,4 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/cust
 # Install Space ship theme
 git clone https://github.com/denysdovhan/spaceship-prompt.git ~/.oh-my-zsh/custom/themes/spaceship-prompt/
 
-$DIR/restore.sht
+$DIR/restore.sh
