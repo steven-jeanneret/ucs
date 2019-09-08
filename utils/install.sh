@@ -4,5 +4,5 @@ DIR="$(dirname "$0" )"  # Source : https://stackoverflow.com/questions/38978650/
 . $DIR/set_var.sh
 
 for i in ${APPS[@]}; do
-    sudo apt install -y $i > /dev/null
+    sudo apt-get install -y $i > /dev/null
 done
