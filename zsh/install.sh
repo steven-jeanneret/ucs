@@ -6,7 +6,7 @@ sudo apt-get install zsh -y > /dev/null
 chsh -s /bin/zsh $USER
 
 # Install Oh My ZSH
-curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh  > /dev/null | sh > /dev/null
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh  | sh > /dev/null
 
 # Install Auto-suggest
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/ > /dev/null
