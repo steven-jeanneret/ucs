@@ -7,4 +7,6 @@ git clone https://github.com/jaagr/polybar.git
 cd polybar
 yes y | ./build.sh
 
+cd $DIR
+
 $DIR/restore.sh

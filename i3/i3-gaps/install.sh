@@ -22,4 +22,6 @@ cd build
 make
 sudo make install
 
+cd $DIR
+
 $DIR/restore.sh

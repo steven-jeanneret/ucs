@@ -1,3 +1,3 @@
 #!/bin/bash
 
-APPS=(git curl)
+APPS=(git curl wget)

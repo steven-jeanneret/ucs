@@ -1,3 +1,3 @@
 #!/bin/bash
 
-MODULES=(ulauncher i3-gaps)
+MODULES=(ulauncher i3-gaps polybar)
