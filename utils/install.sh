@@ -3,6 +3,8 @@ DIR="$(dirname "$0" )"  # Source : https://stackoverflow.com/questions/38978650/
 
 . $DIR/set_var.sh
 
+pushd
+
 for i in ${APPS[@]}; do
     sudo apt-get install -y $i > /dev/null
 done
@@ -54,4 +56,8 @@ echo fs.inotify.max_user_watches = 524288 | sudo tee -a /etc/sysctl.conf
 # S-tui
 sudo pip3 install s-tui
 
-cd $DIR
+sudo add-apt-repository ppa:peek-developers/stable
+sudo apt-get update -y
+sudo apt-get install -y peek
+
+popd
