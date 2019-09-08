@@ -1,3 +1,3 @@
 #!/bin/bash
 
-MODULES=(ulauncher)
+MODULES=(ulauncher i3-gaps)
