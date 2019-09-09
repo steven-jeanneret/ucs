@@ -64,4 +64,11 @@ sudo apt-get install -y peek
 # Virtualenv wrapper
 pip3 install virtualenv virtualenvwrapper --user
 
+# Font, this repo is private.
+cd /tmp
+git clone https://github.com/steven-jeanneret/fonts.git
+cd fonts
+./install_font.sh
+
+
 popd
