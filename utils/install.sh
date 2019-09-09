@@ -61,4 +61,7 @@ sudo add-apt-repository ppa:peek-developers/stable
 sudo apt-get update -y
 sudo apt-get install -y peek
 
+# Virtualenv wrapper
+pip3 install virtualenv virtualenvwrapper --user
+
 popd

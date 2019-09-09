@@ -7,7 +7,7 @@ sudo apt-get install -y cmake cmake-data libcairo2-dev libxcb1-dev libxcb-ewmh-d
 cd /tmp
 git clone https://github.com/jaagr/polybar.git
 cd polybar
-yes y | ./build.sh
+./build.sh
 
 popd
 
