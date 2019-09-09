@@ -39,11 +39,6 @@ sudo add-apt-repository ppa:noobslab/icons
 sudo apt-get update > /dev/null
 sudo apt-get install -y arc-icons > /dev/null
 
-# Captain cursor
-sudo add-apt-repository ppa:dyatlov-igor/la-capitaine
-sudo apt-get update > /dev/null
-sudo apt-get install -y la-capitaine-cursor-theme > /dev/null
-
 # Cursor size
 echo Xcursor.size: 16 >> ~/.Xresources
 
