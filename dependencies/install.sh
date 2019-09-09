@@ -3,6 +3,6 @@ DIR="$(dirname "$0" )"  # Source : https://stackoverflow.com/questions/38978650/
 
 . $DIR/set_var.sh
 
-for i in ${APPS[@]}; do
-    sudo apt-get install -y $i > /dev/null
-done
+sudo apt-get install -y git > /dev/null
+sudo apt-get install -y curl > /dev/null
+sudo apt-get install -y wget > /dev/null

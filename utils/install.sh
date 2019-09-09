@@ -1,14 +1,29 @@
 #!/bin/bash
 DIR="$(dirname "$0" )"  # Source : https://stackoverflow.com/questions/38978650/run-a-script-in-the-same-directory-as-the-current-script
 
-. $DIR/set_var.sh
-
 pushd .
 cd /tmp
 
-for i in ${APPS[@]}; do
-    sudo apt-get install -y $i > /dev/null
-done
+sudo apt-get install -y chromium-browser > /dev/null
+sudo apt-get install -y python3-pip > /dev/null
+sudo apt-get install -y arandr > /dev/null
+sudo apt-get install -y autorandr > /dev/null
+sudo apt-get install -y lxappearance > /dev/null
+sudo apt-get install -y arc-theme > /dev/null
+sudo apt-get install -y htop > /dev/null
+sudo apt-get install -y policykit-desktop-privileges > /dev/null
+sudo apt-get install -y policykit-1-gnome > /dev/null
+sudo apt-get install -y pasystray > /dev/null
+sudo apt-get install -y maim > /dev/null
+sudo apt-get install -y xclip > /dev/null
+sudo apt-get install -y clipit > /dev/null
+sudo apt-get install -y feh > /dev/null
+sudo apt-get install -y vlc > /dev/null
+sudo apt-get install -y caffeine > /dev/null
+sudo apt-get install -y gimp > /dev/null
+sudo apt-get install -y neofetch > /dev/null
+sudo apt-get install -y pinta > /dev/null
+
 
 # VS Code
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
