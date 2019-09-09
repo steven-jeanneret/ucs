@@ -54,7 +54,7 @@ sudo dpkg -i light_1.2_amd64.deb  > /dev/null
 # Playerctl
 cd /tmp
 wget https://github.com/acrisci/playerctl/releases/download/v2.0.2/playerctl-2.0.2_amd64.deb
-sudo dpkg -i playerctl-2.0.2.amd64.deb  > /dev/null
+sudo dpkg -i playerctl-2.0.2_amd64.deb  > /dev/null
 
 # Nodejs
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
