@@ -240,6 +240,7 @@ exec --no-startup-id "sh -c 'sleep 3; exec xmodmap ~/.Xmodmap'"
 ## Exec always
 exec_always --no-startup-id feh --bg-fill ~/.wallpaper/background.jpg
 exec_always --no-startup-id xrdb .Xressources
+exec_always --no-startup-id killall compton
 exec_always --no-startup-id compton --config ~/.config/i3/compton.conf
 exec_always --no-startup-id "sh -c 'sleep 2; exec ~/.config/polybar/launch.sh &'"
 exec_always --no-startup-id autorandr --change # Load detected config
