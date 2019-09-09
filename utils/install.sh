@@ -25,8 +25,8 @@ sudo apt-get install -y arc-icons > /dev/null
 
 # Captain cursor
 sudo add-apt-repository ppa:dyatlov-igor/la-capitaine
-sudo apt update > /dev/null
-sudo apt install -y la-capitaine-cursor-theme > /dev/null
+sudo apt-get update > /dev/null
+sudo apt-get install -y la-capitaine-cursor-theme > /dev/null
 
 # Cursor size
 echo Xcursor.size: 16 >> ~/.Xresources
@@ -43,7 +43,7 @@ sudo dpkg -i playerctl-2.0.2.amd64.deb  > /dev/null
 
 # Nodejs
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-sudo apt install -y nodejs > /dev/null
+sudo apt-get install -y nodejs > /dev/null
 
 ## Config user permission
 mkdir ~/.npm-global
