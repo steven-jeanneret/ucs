@@ -66,7 +66,7 @@ source ~/.profile
 echo fs.inotify.max_user_watches = 524288 | sudo tee -a /etc/sysctl.conf
 
 # S-tui
-sudo pip3 install s-tui --user
+pip3 install s-tui --user
 
 sudo add-apt-repository ppa:peek-developers/stable
 sudo apt-get update -y
